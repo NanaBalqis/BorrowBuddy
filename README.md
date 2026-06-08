@@ -222,9 +222,9 @@ This project is currently developed for academic and project purposes. More feat
 
 Developed by:
 
-Nurainaa Balqis Binti Mohd Adly Hafez Hedayat
-Siti Nuraina Binti Mahadi
-Nur Adlina Balqis Binti Jaafar
+- Nurainaa Balqis Binti Mohd Adly Hafez Hedayat
+- Siti Nuraina Binti Mahadi
+- Nur Adlina Balqis Binti Jaafar
 
 Bachelor of Computer Science  
 Universiti Teknologi MARA Kuala Terengganu
