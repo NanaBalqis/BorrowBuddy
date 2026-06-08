@@ -1,30 +1,30 @@
 # BorrowBuddy
 
-BorrowBuddy is a digital borrowing and lending management system that helps users record item details, manage borrower information, track borrowing status, and monitor return dates more efficiently.
+BorrowBuddy is a digital book borrowing and lending management system that helps users record book details, manage borrower information, track borrowing status, and monitor return dates more efficiently.
 
 ## About the Project
 
-BorrowBuddy is developed to help users manage borrowing and lending activities in a simple and organized way. Instead of using manual records or notes, users can use this system to keep track of borrowed items, borrower details, borrowing dates, return dates, and item status.
+BorrowBuddy is developed to help users manage borrowing and lending activities in a simple and organized way. Instead of using manual records or notes, organization can use this system to keep track of borrowed book, borrower details, borrowing dates, return dates, and book status.
 
-This system helps reduce common problems such as forgotten borrowed items, unclear borrower information, misplaced records, and late returns. BorrowBuddy is suitable for students, individuals, small communities, clubs, and organizations that frequently lend or borrow items.
+This system helps reduce common problems such as forgotten borrowed book, unclear borrower information, misplaced records, and late returns. BorrowBuddy is suitable for students, schools, univesities, and organizations that frequently lend or borrow books.
 
 ## Objectives
 
 The objectives of BorrowBuddy are:
 
-1. To develop a system that records item borrowing and lending information.
-2. To help users manage borrower details and item status.
+1. To develop a system that records books borrowing and lending information.
+2. To help users manage borrower details and books status.
 3. To allow users to monitor borrowing dates and return dates.
-4. To reduce miscommunication between item owners and borrowers.
-5. To provide a more organized method for managing borrowed items.
+4. To reduce miscommunication between books owners and borrowers.
+5. To provide a more organized method for managing borrowed books
 
 ## Features
 
-- Add and manage item details
-- View list of available items
+- Add and manage books details
+- View list of available books
 - Record borrower information
-- Track borrowed items
-- Track returned items
+- Track borrowed books
+- Track returned books
 - Update borrowing status
 - Manage borrowing date and return date
 - Search or view borrowing records
@@ -35,11 +35,11 @@ The objectives of BorrowBuddy are:
 BorrowBuddy is suitable for:
 
 - Students
-- Personal item owners
-- Small communities
-- Clubs and societies
+- Schools
+- University
+- Library
 - Organizations
-- Individuals who often lend or borrow items
+- Individuals who often lend or borrow books
 
 ## Technologies Used
 
@@ -175,27 +175,27 @@ Example database configuration:
 
 ## Main Modules
 
-### 1. Item Management
+### 1. Book Management
 
-This module allows users to add, view, edit, and manage item details. Each item can include information such as item name, category, description, and availability status.
+This module allows users to add, view, edit, and manage books details. Each book can include information such as book tittle, category, description, and availability status.
 
 ### 2. Borrower Management
 
-This module records borrower information such as borrower name, contact number, borrowed item, borrowing date, and return date.
+This module records borrower information such as borrower name, contact number, borrowed book, borrowing date, and return date.
 
 ### 3. Borrowing Record Management
 
-This module stores borrowing records, including item details, borrower details, borrowing date, return date, and item status.
+This module stores borrowing records, including item details, borrower details, borrowing date, return date, and books status.
 
 ### 4. Status Tracking
 
-This module allows users to check whether an item is available, borrowed, or returned.
+This module allows users to check whether an book is available, borrowed, or returned.
 
 ## System Benefits
 
 - Makes borrowing records easier to manage
-- Helps users track borrowed and returned items
-- Reduces the risk of losing item information
+- Helps users track borrowed and returned books
+- Reduces the risk of losing book information
 - Improves responsibility between lender and borrower
 - Saves time compared to manual tracking
 - Provides organized borrowing history
@@ -210,18 +210,9 @@ Future improvements for BorrowBuddy may include:
 - Search and filter function
 - Borrowing history report
 - Admin dashboard
-- QR code for item tracking
+- QR code for book tracking
 - Mobile-friendly design
-- Export records to PDF or Excel
-
-## Screenshots
-
-Project screenshots can be added here.
-
-Example:
-
-    ![Homepage Screenshot](assets/images/homepage.png)
-    ![Borrowing Record Screenshot](assets/images/records.png)
+- Export records to PDF or Exce
 
 ## Project Status
 
@@ -231,7 +222,9 @@ This project is currently developed for academic and project purposes. More feat
 
 Developed by:
 
-Your Name
+Nurainaa Balqis Binti Mohd Adly Hafez Hedayat
+Siti Nuraina Binti Mahadi
+Nur Adlina Balqis Binti Jaafar
 
 Bachelor of Computer Science  
 Universiti Teknologi MARA Kuala Terengganu
