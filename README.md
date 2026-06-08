@@ -50,11 +50,12 @@ BorrowBuddy is suitable for:
 
 ## Project Structure
 
+```text
 BorrowBuddy/
 │
 ├── app/
 │   ├── Config/
-│   │   └── Routes.php              # System route configuration
+│   │   └── Routes.php
 │   │
 │   ├── Controllers/
 │   │   ├── BaseController.php
@@ -105,27 +106,28 @@ BorrowBuddy/
 │           └── resetpassword.php
 │
 ├── public/
-│   ├── assets/                     # CSS, JavaScript, images, and system assets
-│   ├── dashboard/                  # Dashboard-related public files
-│   ├── pass/                       # Password-related resources
-│   ├── uploads/                    # Uploaded files
-│   ├── vendor/                     # Public vendor files
-│   └── index.php                   # Public entry point
+│   ├── assets/
+│   ├── dashboard/
+│   ├── pass/
+│   ├── uploads/
+│   ├── vendor/
+│   └── index.php
 │
-├── tests/                          # Testing files
-├── vendor/                         # Composer dependencies
-├── writable/                       # Cache, logs, and writable files
+├── tests/
+├── vendor/
+├── writable/
 │
-├── .env                            # Environment configuration
-├── borrowbuddy.sql                 # Database file
-├── composer.json                   # Composer configuration
+├── .env
+├── borrowbuddy.sql
+├── composer.json
 ├── composer.lock
 ├── index.php
 ├── LICENSE
 ├── phpunit.xml.dist
 ├── preload.php
 ├── README.md
-└── spark                           # CodeIgniter command-line tool
+└── spark
+```
 
 ## How to Run the Project
 
