@@ -52,23 +52,80 @@ BorrowBuddy is suitable for:
 
 BorrowBuddy/
 │
-├── index.html
-├── style.css
-├── script.js
+├── app/
+│   ├── Config/
+│   │   └── Routes.php              # System route configuration
+│   │
+│   ├── Controllers/
+│   │   ├── BaseController.php
+│   │   ├── HomeController.php
+│   │   ├── UserController.php
+│   │   └── ReportController.php
+│   │
+│   ├── Models/
+│   │   ├── AdminLogModel.php
+│   │   ├── BookModel.php
+│   │   ├── DashboardModel.php
+│   │   ├── FavModel.php
+│   │   ├── ReminderModel.php
+│   │   ├── RentalModel.php
+│   │   ├── ReportModel.php
+│   │   └── UserModel.php
+│   │
+│   └── Views/
+│       ├── dashboard/
+│       │   ├── addBook.php
+│       │   ├── addUser.php
+│       │   ├── bookList.php
+│       │   ├── editBook.php
+│       │   ├── editRentalHistory.php
+│       │   ├── editUser.php
+│       │   ├── favBook.php
+│       │   ├── main.php
+│       │   ├── menu.php
+│       │   ├── myrental.php
+│       │   ├── profile.php
+│       │   ├── rentalHistory.php
+│       │   ├── reportList.php
+│       │   └── userList.php
+│       │
+│       ├── emails/
+│       │   └── rental_ticket.php
+│       │
+│       ├── includes/
+│       │   ├── footer.php
+│       │   ├── header.php
+│       │   └── navbar.php
+│       │
+│       └── pages/
+│           ├── forgotpassword.php
+│           ├── home.php
+│           ├── login.php
+│           ├── register.php
+│           └── resetpassword.php
+│
+├── public/
+│   ├── assets/                     # CSS, JavaScript, images, and system assets
+│   ├── dashboard/                  # Dashboard-related public files
+│   ├── pass/                       # Password-related resources
+│   ├── uploads/                    # Uploaded files
+│   ├── vendor/                     # Public vendor files
+│   └── index.php                   # Public entry point
+│
+├── tests/                          # Testing files
+├── vendor/                         # Composer dependencies
+├── writable/                       # Cache, logs, and writable files
+│
+├── .env                            # Environment configuration
+├── borrowbuddy.sql                 # Database file
+├── composer.json                   # Composer configuration
+├── composer.lock
+├── index.php
+├── LICENSE
+├── phpunit.xml.dist
+├── preload.php
 ├── README.md
-│
-├── assets/
-│   ├── images/
-│   └── icons/
-│
-├── database/
-│   └── borrowbuddy.sql
-│
-└── pages/
-    ├── add_item.html
-    ├── borrower.html
-    ├── records.html
-    └── status.html
+└── spark                           # CodeIgniter command-line tool
 
 ## How to Run the Project
 
