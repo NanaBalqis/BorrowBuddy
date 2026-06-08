@@ -6,16 +6,16 @@ use CodeIgniter\Config\BaseConfig;
 
 class Email extends BaseConfig
 {
-    public string $fromEmail = 'nurainaabalqis83@gmail.com';
-    public string $fromName = 'Aiyna';
+    public string $fromEmail = 'youremail@gmail.com';
+    public string $fromName = 'shortname';
     public string $recipients = '';
 
     public string $userAgent = 'CodeIgniter';
     public string $protocol = 'smtp';
     public string $mailPath = '/usr/sbin/sendmail';
     public string $SMTPHost = 'smtp.gmail.com';
-    public string $SMTPUser = 'nurainaabalqis83@gmail.com';
-    public string $SMTPPass = 'yegn orfi mwdx mosd';  // Update this with your generated app password
+    public string $SMTPUser = 'yourname@gmail.com';
+    public string $SMTPPass = 'tokengmail';  // Update this with your generated app password
     public int $SMTPPort = 587;
     public int $SMTPTimeout = 10;
     public bool $SMTPKeepAlive = false;
