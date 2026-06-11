@@ -227,7 +227,7 @@ Developed by:
 - Nur Adlina Balqis Binti Jaafar
 
 Bachelor of Computer Science  
-Universiti Teknologi MARA Kuala Terengganu
+Universiti Teknologi MARA Kuala Terengganu (UiTM)
 
 ## License
 
